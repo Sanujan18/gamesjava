@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./products.css">
+    <script src = "checkout.js"></script>
+    <script src = "ham.js" defer></script>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <meta name="theme-color" content="#2196f3">
+    <title>Game retailer</title>
+   
+</head>
+<body>
+        <!---Navigation bar codes begins-->
+    <section class = "section1">
+            
+            <div class="navbar">
+                
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="upcoming.html">Upcoming Games</a>
+                    <a href="consoles.html">Consoles and Gaming Peripherals</a>
+                    <a href="games.html">Games</a>
+                    <a href="queries.html">FAQs and Queries</a>
+                    <a href="reviews.html">Reviews</a>
+                    <a href="products.html">Products</a>
+
+                </div>
+                <div class="hamburger" onclick="toggleMenu()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="mobile-menu" id="mobileMenu">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="upcoming.html">Upcoming Games</a>
+                    <a href="consoles.html">Consoles and Gaming Peripherals</a>
+                    <a href="games.html">Games</a>
+                    <a href="queries.html">FAQs and Queries</a>
+                    <a href="reviews.html">Reviews</a>
+                    <a href="products.html">Products</a>
+                </div>
+            </div>
+        
+        <!---Navigation bar codes ends-->
+
+        <h2>Your Order</h2>
+        <table class="favorites-table" id="orderTable">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Order items will be dynamically added here -->
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Total:</td>
+                    <td id="orderTotal">Rs 0.00</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <!--form-->
+        <section class="fillform">
+            <section class="qform">
+            <h3>Customer Details</h3>
+            <form>
+                <div class="fr">
+                    <label for="customer-fullname">Full Name</label>
+                    <input type="text" id="customer-fullname" name="customer_fullname" placeholder="Enter your full name" required>
+                </div>
+        
+                <div class="fr">
+                    <label for="customer-address">Address</label>
+                    <input type="text" id="customer-address" name="customer_address" placeholder="Enter your address" required>
+                </div>
+        
+                <div class="fr">
+                    <label for="customer-phone">Phone Number</label>
+                    <input type="tel" id="customer-phone" name="customer_phone" placeholder="Enter your phone number" required>
+                </div>
+        
+                <div class="fr">
+                    <label for="customer-email">Email Address</label>
+                    <input type="email" id="customer-email" name="customer_email" placeholder="Enter your email address" required>
+                </div>
+            </form>
+
+            <h3>Payment Details</h3>
+            <form>
+                <div class="fr">
+                    <label for="card-name">Name on Card</label>
+                    <input type="text" id="card-name" name="card_name" placeholder="Enter name on card" required>
+                </div>
+        
+                <div class="fr">
+                    <label for="card-number">Card Number</label>
+                    <input type="text" id="card-number" name="card_number" placeholder="Enter your card number" required>
+                </div>
+        
+                <div class="fr">
+                    <label for="expiry-date">Expiry Date</label>
+                    <input type="text" id="expiry-date" name="expiry_date" placeholder="MM/YY" required>
+                </div>
+        
+                <div class="fr">
+                    <label for="cvv">CVV</label>
+                    <input type="text" id="cvv" name="cvv" placeholder="Enter CVV" required>
+                </div>
+        
+                <div class="form-group">
+                    <button type="submit" class="submit-btn" onclick="showDeliveryDate()">Buy now</button>
+                </div>
+            </form>
+        </section>
+        </section>
+        <!--form-->
+
+    <!---footer code begins-->
+    <section class = "footer">
+        <footer>
+            <div class = "footer1">
+                    <h2>Connect with Us!</h2>
+                    <p>Main Branch: 988, Hyde park, Colombo 2</p>
+                    <p>Email: gamersworld@gmail.com</p>
+                    <p>Contact No: 0714567667</p>
+                    <div class="logo">
+                        <img src = "images/fb.png" alt="facebook">
+                        <img src = "images/insta.png" alt = "instagram">
+                        <img src = "images/whatsapp.png" alt = "whatsapp">
+                    </div>
+                </div>
+                <p>Unlock Your Professional Gaming Potential!</p>
+        </footer>   
+        </section>
+    <!--footer code ends-->
+
+
+</body>
+</html>

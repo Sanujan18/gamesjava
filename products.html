@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./products.css">
+    <script src = "script.js"></script>
+    <script src = "ham.js" defer></script>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <meta name="theme-color" content="#2196f3">
+    <title>Game retailer</title>
+   
+</head>
+<body>
+        <!---Navigation bar codes begins-->
+    <section class = "section1">
+            
+            <div class="navbar">
+                
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="upcoming.html">Upcoming Games</a>
+                    <a href="consoles.html">Consoles and Gaming Peripherals</a>
+                    <a href="games.html">Games</a>
+                    <a href="queries.html">FAQs and Queries</a>
+                    <a href="reviews.html">Reviews</a>
+                    <a href="products.html">Products</a>
+
+                </div>
+                <div class="hamburger" onclick="toggleMenu()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="mobile-menu" id="mobileMenu">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="upcoming.html">Upcoming Games</a>
+                    <a href="consoles.html">Consoles and Gaming Peripherals</a>
+                    <a href="games.html">Games</a>
+                    <a href="queries.html">FAQs and Queries</a>
+                    <a href="reviews.html">Reviews</a>
+                    <a href="products.html">Products</a>
+                </div>
+            </div>
+        
+        <!---Navigation bar codes ends-->
+
+        <h1>Select you product </h1>
+        
+        <h2 class = "h2">Processors</h2>
+        <div class="product-grid" id="processors">
+            <div class="product-card">
+                <img src="images/corei7.jpg" alt="Intel Core i7-13700K">
+                <div class="product-name">Intel Core i7-13700K</div>
+                <div class="product-price">Price: Rs.150,000</div>
+            
+                <label for="qty-i7-13700k">Quantity:</label>
+                <input type="number" id="qty-i7-13700k" name="qty-i7-13700k" class="product-quantity" value="1" min="1">
+
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="images/ry9.jpg" alt="AMD Ryzen 9 7950X">
+                <div class="product-name">AMD Ryzen 9 7950X</div>
+                <div class="product-price">Price: Rs.205,000</div>
+                <label for="qty-ry9">Quantity:</label>
+                <input type="number" id="qty-ry9" name="qty-ry9" class="product-quantity" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="images/corei7.jpg" alt="Intel Core i7-13700K">
+                <div class="product-name">Intel Core i7-13700K</div>
+                <div class="product-price">Price: Rs.150,000</div>
+                <label for="qty-i7">Quantity:</label>
+                <input type="number" id="qty-i7" name="qty-i7" class="product-quantity" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="images/ry7.jpg" alt="AMD Ryzen 7 7800X3D">
+                <div class="product-name">AMD Ryzen 7 7800X3D</div>
+                <div class="product-price">Price: Rs.160,000</div>
+                <label for="qty-ry7">Quantity:</label>
+                <input type="number" id="qty-ry7" name="qty-ry7" class="product-quantity" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="images/corei5.jpg" alt="Intel Core i5-13600K">
+                <div class="product-name">Intel Core i5-13600K</div>
+                <div class="product-price">Price: Rs.100,000</div>
+                <label for="qty-i5">Quantity:</label>
+                <input type="number" id="qty-i5" name="qty-i5" class="product-quantity" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="images/ry5.jpg" alt="AMD Ryzen 5 7600X">
+                <div class="product-name">AMD Ryzen 5 7600X</div>
+                <div class="product-price">Price: Rs.70,000</div>
+                <label for="qty-ry5">Quantity:</label>
+                <input type="number" id="qty-ry5" name="qty-ry5" class="product-quantity" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="images/corei3.jpg" alt="Intel Core i3-13100F">
+                <div class="product-name">Intel Core i3-13100F</div>
+                <div class="product-price">Price: Rs.45,000</div>
+                <label for="qty-i3">Quantity:</label>
+                <input type="number" id="qty-i3" name="qty-i3" class="product-quantity" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="images/ry3.jpg" alt="AMD Ryzen 3 4100">
+                <div class="product-name">AMD Ryzen 3 4100</div>
+                <div class="product-price">Price: Rs.30,000</div>
+                <label for="qty-ry3">Quantity:</label>
+                <input type="number" id="qty-ry3" name="qty-ry3" class="product-quantity" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            
+        </div>
+
+        <!--Graphic Cards-->
+        <h2 class = "h2">Graphic Cards</h2>
+        <div class="product-grid" id="graphic-cards">
+            <div class="product-card">
+                <img src="images/4090.jpg" alt="NVIDIA GeForce RTX 4090">
+                <div class="product-name">NVIDIA GeForce RTX 4090</div>
+                <div class="product-price">Rs.700,000</div>
+                <label for="qty-4090">Quantity:</label>
+                <input type="number" id="qty-4090" name="qty-4090" class="product-quantity" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="images/ry79.jpg" alt="AMD Radeon RX 7900 XT">
+                <div class="product-name">AMD Radeon RX 7900 XT</div>
+                <div class="product-price">Price: Rs.400,000</div>
+                <label for="qty-ry79">Quantity:</label>
+                <input type="number" id="qty-ry79" name="qty-ry79" class="product-quantity" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="images/4080.jpg" alt="NVIDIA GeForce RTX 4080">
+                <div class="product-name">NVIDIA GeForce RTX 4080</div>
+                <div class="product-price">Price: Rs.560,000</div>
+                <label for="qty-4080">Quantity:</label>
+                <input type="number" id="qty-4080" name="qty-4080" class="product-quantity" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="images/ry78.jpg" alt="AMD Ryzen 7 7800X3D">
+                <div class="product-name">AMD Ryzen 7 7800X3D</div>
+                <div class="product-price">Price: Rs.210,000</div>
+                <label for="qty-ry78">Quantity:</label>
+                <input type="number" id="qty-ry78" name="qty-ry78" class="product-quantity" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="images/4070.jpg" alt="NVIDIA GeForce RTX 4070 Ti">
+                <div class="product-name">NVIDIA GeForce RTX 4070 Ti</div>
+                <div class="product-price">Price:Rs.280,000</div>
+                <label for="qty-4070">Quantity:</label>
+                <input type="number" id="qty-4070" name="qty-4070" class="product-quantity" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="images/arc.jpg" alt="Intel Arc A770">
+                <div class="product-name">Intel Arc A770</div>
+                <div class="product-price">Price: Rs.250,000</div>
+                <label for="qty-arc">Quantity:</label>
+                <input type="number" id="qty-arc" name="qty-arc" class="product-quantity" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="images/4060.jpg" alt="NVIDIA GeForce RTX 4060 Ti">
+                <div class="product-name">NVIDIA GeForce RTX 4060 Ti</div>
+                <div class="product-price">Price: Rs.170,000</div>
+                <label for="qty-4060">Quantity:</label>
+                <input type="number" id="qty-4060" name="qty-4060" class="product-quantity" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="images/ry76.jpg" alt="AMD Radeon RX 7600">
+                <div class="product-name">AMD Radeon RX 7600</div>
+                <div class="product-price">Price: Rs.75,000</div>
+                <label for="qty-ry76">Quantity:</label>
+                <input type="number" id="qty-ry76" name="qty-ry76" class="product-quantity" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>            
+        </div>
+        <!--Graphic cards-->
+
+        <!--Motherboards-->
+        <h2 class ="h2">Motherboards</h2>
+        <div class="product-grid" id="motherboards">
+            <div class="product-card">
+                <img src="images/arog.jpg" alt="ASUS ROG Strix Z790-E Gaming WiFi (Intel)">
+                <div class="product-name">ASUS ROG Strix Z790-E Gaming WiFi (Intel)</div>
+                <div class="product-price">Price: Rs.200,000</div>
+                <label for="qty-z790">Quantity:</label>
+                <input type="number" id="qty-z790" name="qty-z790" class="product-quantity" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="images/msimag.jpg" alt="MSI MAG B650 Tomahawk WiFi (AMD)">
+                <div class="product-name">MSI MAG B650 Tomahawk WiFi (AMD)</div>
+                <div class="product-price">Price: Rs.110,000</div>
+                <label for="qty-b650">Quantity:</label>
+                <input type="number" id="qty-b650" name="qty-b650" class="product-quantity" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="images/aorusamd.jpg" alt="Gigabyte AORUS X670E Master (AMD)">
+                <div class="product-name">Gigabyte AORUS X670E Master (AMD)</div>
+                <div class="product-price">Price: Rs.210,000</div>
+                <label for="qty-x670e">Quantity:</label>
+                <input type="number" id="qty-x670e" name="qty-x670e" class="product-quantity" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="images/asrog.jpg" alt="ASRock Z690 Taichi (Intel)">
+                <div class="product-name">ASRock Z690 Taichi (Intel)</div>
+                <div class="product-price">Price: Rs.100,000</div>
+                <label for="qty-z690">Quantity:</label>
+                <input type="number" id="qty-z690" name="qty-z690" class="product-quantity" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="images/atuf.jpg" alt="ASUS TUF Gaming B550-Plus (AMD)">
+                <div class="product-name">ASUS TUF Gaming B550-Plus (AMD)</div>
+                <div class="product-price">Price: Rs.90,000</div>
+                <label for="qty-b550">Quantity:</label>
+                <input type="number" id="qty-b550" name="qty-b550" class="product-quantity" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="images/msi.jpg" alt="MSI PRO B760-P WiFi (Intel)">
+                <div class="product-name">MSI PRO B760-P WiFi (Intel)</div>
+                <div class="product-price">Price: Rs.70,000</div>
+                <label for="qty-b760">Quantity:</label>
+                <input type="number" id="qty-b760" name="qty-b760" class="product-quantity" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="images/450.jpg" alt="Gigabyte B450 AORUS Elite (AMD)">
+                <div class="product-name">Gigabyte B450 AORUS Elite (AMD)</div>
+                <div class="product-price">Price: Rs.30,000</div>
+                <label for="qty-b450">Quantity:</label>
+                <input type="number" id="qty-b450" name="qty-b450" class="product-quantity" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="images/asrock.jpg" alt="ASRock H610M-HDV/M.2 (Intel)">
+                <div class="product-name">ASRock H610M-HDV/M.2 (Intel)</div>
+                <div class="product-price">Price: Rs.35,000</div>
+                <label for="qty-h610m">Quantity:</label>
+                <input type="number" id="qty-h610m" name="qty-h610m" class="product-quantity" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>            
+        </div>
+        <!--Motherboards-->
+
+        <!--Memory-->
+        <h2 class ="h2">Memory (RAM) </h2>
+        <div class="product-grid" id="memory">
+            <div class="product-card">
+                <img src="images/cor.jpg" alt="Corsair Vengeance DDR5 32GB (2x16GB) 6000MHz">
+                <div class="product-name">Corsair Vengeance DDR5 32GB (2x16GB) 6000MHz</div>
+                <div class="product-price">Price: Rs.40,000</div>
+                <label for="qty-corsair">Quantity:</label>
+                <input type="number" id="qty-corsair" name="qty-corsair" class="product-quantity" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="images/gs.jpg" alt="G.Skill Trident Z5 RGB DDR5 32GB (2x16GB) 6400MHz">
+                <div class="product-name">G.Skill Trident Z5 RGB DDR5 32GB (2x16GB) 6400MHz</div>
+                <div class="product-price">Price: Rs.40,000</div>
+                <label for="qty-gskill">Quantity:</label>
+                <input type="number" id="qty-gskill" name="qty-gskill" class="product-quantity" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="images/cru.jpg" alt="Crucial Ballistix DDR4 16GB (2x8GB) 3600MHz">
+                <div class="product-name">Crucial Ballistix DDR4 16GB (2x8GB) 3600MHz</div>
+                <div class="product-price">Price: Rs.60,000</div>
+                <label for="qty-crucial">Quantity:</label>
+                <input type="number" id="qty-crucial" name="qty-crucial" class="product-quantity" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="images/fury.jpg" alt="Kingston Fury Beast DDR5 32GB (2x16GB) 5600MHz">
+                <div class="product-name">Kingston Fury Beast DDR5 32GB (2x16GB) 5600MHz</div>
+                <div class="product-price">Price: Rs.67,000</div>
+                <label for="qty-kingston">Quantity:</label>
+                <input type="number" id="qty-kingston" name="qty-kingston" class="product-quantity" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>            
+        </div>
+        <!--Memory card-->
+
+        <!--Storage devices-->
+        <h2 class ="h2">Storage Devices</h2>
+        <div class="product-grid" id="storage-devices">
+            <div class="product-card">
+                <img src="images/sam990.jpg" alt="Samsung 990 Pro NVMe SSD 2TB">
+                <div class="product-name">Samsung 990 Pro NVMe SSD 2TB</div>
+                <div class="product-price">Price: Rs.60,000</div>
+                <label for="qty-sam990">Quantity:</label>
+                <input type="number" id="qty-sam990" name="qty-sam990" class="product-quantity" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="images/wd.jpg" alt="Western Digital Black SN850X NVMe SSD 1TB">
+                <div class="product-name">Western Digital Black SN850X NVMe SSD 1TB</div>
+                <div class="product-price">Price: Rs.70,000</div>
+                <label for="qty-wd850x">Quantity:</label>
+                <input type="number" id="qty-wd850x" name="qty-wd850x" class="product-quantity" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="images/crup5.jpg" alt="Crucial P5 Plus NVMe SSD 1TB">
+                <div class="product-name">Crucial P5 Plus NVMe SSD 1TB</div>
+                <div class="product-price">Price: Rs.75,000</div>
+                <label for="qty-crup5">Quantity:</label>
+                <input type="number" id="qty-crup5" name="qty-crup5" class="product-quantity" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="images/fc.jpg" alt="Seagate FireCuda 530 NVMe SSD 2TB">
+                <div class="product-name">Seagate FireCuda 530 NVMe SSD 2TB</div>
+                <div class="product-price">Price: Rs.85,000</div>
+                <label for="qty-firecuda">Quantity:</label>
+                <input type="number" id="qty-firecuda" name="qty-firecuda" class="product-quantity" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="images/kc.jpg" alt="Kingston KC3000 NVMe SSD 2TB">
+                <div class="product-name">Kingston KC3000 NVMe SSD 2TB</div>
+                <div class="product-price">Price: Rs.105,000</div>
+                <label for="qty-kingstonssd">Quantity:</label>
+                <input type="number" id="qty-kingstonssd" name="qty-kingstonssd" class="product-quantity" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="images/sam870.jpg" alt="Samsung 870 EVO SATA SSD 1TB">
+                <div class="product-name">Samsung 870 EVO SATA SSD 1TB</div>
+                <div class="product-price">Price: Rs.30,000</div>
+                <label for="qty-sam870">Quantity:</label>
+                <input type="number" id="qty-sam870" name="qty-sam870" class="product-quantity" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="images/wdhdd.jpg" alt="Western Digital Blue HDD 4TB">
+                <div class="product-name">Western Digital Blue HDD 4TB</div>
+                <div class="product-price">Price: Rs.25,000</div>
+                <label for="qty-wdhdd">Quantity:</label>
+                <input type="number" id="qty-wdhdd" name="qty-wdhdd" class="product-quantity" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="images/seab.jpg" alt="Seagate BarraCuda HDD 2TB">
+                <div class="product-name">Seagate BarraCuda HDD 2TB</div>
+                <div class="product-price">Price: Rs.20,000</div>
+                <label for="qty-barracuda">Quantity:</label>
+                <input type="number" id="qty-barracuda" name="qty-barracuda" class="product-quantity" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>            
+        </div>
+        <!--Storage devices-->
+
+        <h2>Your Cart</h2>
+            <table id="cart-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Quantity</th>
+                        <th>Unit Price</th>
+                        <th>Sub Total</th>
+                    </tr>
+                </thead>
+                <tbody id="cart-body">
+                    <!-- Cart items will be dynamically added here -->
+                </tbody>
+            </table>
+
+
+        <div class="cart-buttons">
+            <button id="add-to-favorites" class="cart-button">Add to Favorites</button>
+            <button id="apply-to-favorites" class="cart-button">Apply to Favorites</button>
+            <button id="pay-now" class="cart-button">Pay Now</button>
+        </div>
+
+ 
+
+        <!---footer code begins-->
+            <section class = "footer">
+            <footer>
+                <div class = "footer1">
+                        <h2>Connect with Us!</h2>
+                        <p>Main Branch: 988, Hyde park, Colombo 2</p>
+                        <p>Email: gamersworld@gmail.com</p>
+                        <p>Contact No: 0714567667</p>
+                        <div class="logo">
+                            <img src = "images/fb.png" alt="facebook">
+                            <img src = "images/insta.png" alt = "instagram">
+                            <img src = "images/whatsapp.png" alt = "whatsapp">
+                        </div>
+                    </div>
+                    <p>Unlock Your Professional Gaming Potential!</p>
+            </footer>   
+            </section>
+        <!--footer code ends-->
+    
+
+</body>
+</html>
+               
